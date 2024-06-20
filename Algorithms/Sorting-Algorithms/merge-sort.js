@@ -25,6 +25,7 @@ function merge(leftArr, rightArr){
     return [...sortedArr, ...leftArr, ...rightArr];
 }
 
-console.log(MergeSort([8, 20, -2, 4, -6]));
+console.log(MergeSort([-6, 20, 8, -2, 4]));
+console.log(MergeSort([99, 25, -88, 852, 102, 74, -9, 5, 257, 63]));
 
 // Big-O = O(nlogn);
